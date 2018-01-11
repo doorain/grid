@@ -8,6 +8,16 @@
   /* grid-template-columns: 1fr 2fr 1fr; */
   grid-template-columns: repeat(3,1fr);
 
+  /* grid-column-gap: 10px; */
+  /* grid-row-gap: 10px; */
+  grid-gap: 10px;
+
+  /* grid-auto-rows: 200px; */
+  /* grid-auto-rows: minmax(200px,auto); */
+  /* grid-template-rows: 200px 300px 400px; */
+  grid-template-rows: repeat(3,minmax(200px,auto));
+
+
   max-width: 960px;
   margin: 0 auto;
 
