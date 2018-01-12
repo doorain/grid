@@ -6,17 +6,17 @@ class App extends Component {
     return (
       <div className="App">
         <div id="grid-content">
-          <div class="one">1</div>
-          <div class="two">2</div>
-          <div class="three">3</div>
-          <div class="four nested">
+          <div className="one">1</div>
+          <div className="two">2</div>
+          <div className="three">3</div>
+          <div className="four nested">
             <p>A</p>
             <p>B</p>
             <p>C</p>
             <p>D</p>
           </div>
-          <div class="five">5</div>
-          <div class="six">6</div>
+          <div className="five">5</div>
+          <div className="six">6</div>
 
         </div>
       </div>
