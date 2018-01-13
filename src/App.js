@@ -20,8 +20,12 @@ class App extends Component {
           <div className="six">6</div>
 
         </div>*/}
-
+        <input type="checkbox" />
         <div id="grid-content">
+          <div id="grid">
+            <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+
+          </div>
           <header>Header</header>
           <main>Main</main>
           <section>Section</section>
